@@ -4,16 +4,7 @@ Welcome to the art and science of optimizing neural networks at scale! You'll ge
 You'll walk through three hands-on labs. Please note that the labs are copied from https://github.com/aws-samples/sagemaker-distributed-training-workshop with minor modifications.
 * Lab 1: data parallelism 
 * Lab 2: model parallelism
-* Lab 3: inference with model parallelism
-
-# Prerequisites
-* Open the AWS Console and Amazon SageMaker. 
-* Open the SageMaker Studio. Click "File" -> "New" -> "Terminal".
-* In the terminal, git clone https://github.com/qzhangSpark/mlops-distributed-training-labs.git
-* In the SageMaker Studio, click the File Browser on the left menu and navigate to the **sagemaker-distributed-training-labs** folder
-* For all labs, select "Data Science" image and "Python 3" Kernel for Notebooks.
-
-The labs are self-contained. All of the content you need is produced by the notebooks themselves or included in the directory. However, if you are in an AWS-led workshop you will most likely use the Event Engine to manage your AWS account. If not, please make sure you have an AWS account with a SageMaker Studio domain created. In this account, please [request a service limit increase](https://us-east-1.console.aws.amazon.com/servicequotas/home/services/sagemaker/quotas) for the `ml.g4dn.12xlarge`, `ml.p3.16xlarge`, `ml.g5.48xlarge` instance types within SageMaker training. 
+* Lab 3: inference with model parallelism (Optional today)
 
 # Helpful links 
 1. [SageMaker Data Parallel, aka Herring](https://www.amazon.science/publications/herring-rethinking-the-parameter-server-at-scale-for-the-cloud). In this paper, we introduce a custom high performance computing configuration for distributed gradient descent on AWS, available within Amazon SageMaker Training.
